@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Island of the True Cross">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d2230"/>
+      <stop offset=".62" stop-color="#1f5560"/>
+      <stop offset="1" stop-color="#e0a35a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17404c"/>
+      <stop offset="1" stop-color="#081820"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop offset="0" stop-color="#ffe2ad" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffb65e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <circle cx="860" cy="226" r="150" fill="url(#sun)"/>
+  <rect y="232" width="1200" height="88" fill="url(#sea)"/>
+  <path d="M560 234C640 214 700 170 770 164C830 158 860 196 920 190C990 184 1040 214 1130 234Z" fill="#0b2a2a"/>
+  <path d="M452 234C486 224 520 216 552 234Z" fill="#0f3331"/>
+  <g stroke="#ffcf8e" stroke-opacity=".35" stroke-width="2" stroke-linecap="round">
+    <path d="M770 252H950M810 268H910M840 284H880"/>
+  </g>
+  <text x="72" y="130" fill="#f4efe6" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Island of the</text>
+  <text x="72" y="196" fill="#f4efe6" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">True Cross</text>
+  <rect x="74" y="216" width="56" height="4" rx="2" fill="#e0a35a"/>
+  <text x="74" y="256" fill="#c9d6d6" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="2">KNOWLEDGE IS THE RESOURCE</text>
+</svg>
